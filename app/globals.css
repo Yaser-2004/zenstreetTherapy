@@ -19,3 +19,59 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.left {
+  background-image: url(../public/Frame\ 26.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button_slot {
+  width: 200px;
+  height: 50px;
+}
+
+.button_slot:first-child {
+  background-color: black;
+  color: white;
+}
+
+.time_buttons button {
+  background-color: transparent;
+  border: solid black 2px;
+}
+
+.time_buttons .morning button:nth-child(2), .time_buttons .morning button:first-child {
+  background-color: rgb(0, 89, 255);
+  border: solid rgb(0, 89, 255) 2px;
+  color: white;
+}
+
+.react-calendar {
+  border-radius: 20px;
+  border: none !important;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  width: 800px !important;
+  height: 350px !important;
+  padding-top: 15px !important;
+}
+
+.mode_proceed button {
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+}
+
+label div:nth-child(2) {
+  height: 50px;
+}
+
+.verification button {
+  height: 50px;
+}
+
+.share_btn button {
+  background-color: transparent;
+  border: 2px solid rgb(0, 98, 255);
+  color: rgb(0, 98, 255);
+}
