@@ -43,15 +43,15 @@ const repeatedItems = Array.from({ length: number ? 8 : 2 }, (_, index) => testi
     <div className="Therapy flex relative">
       {/* left */}
       <div className="left1 flex-auto w-1/3 h-screen p-10"></div>
-      <div className="left flex-auto w-1/3 h-screen p-10 fixed">
-        <div className='flex items-center mb-10'>
+      <div className="left flex-auto w-1/3 h-screen p-10 pt-6 fixed">
+        <div className='flex items-center mb-6'>
             <Image src={leftArrow} className='w-8 h-8 mr-2' alt='' />
             <p className='text-white text-lg'>Back</p>
         </div>
 
         <div className='flex justify-center flex-col items-center'>
             <Card />
-            <Link className='rounded-full bg-white text-blue-500 w-96 h-14 mt-14 font-semibold font-sans flex justify-center items-center' href={'/sessions'}>Book Session</Link>
+            <Link className='rounded-full bg-white text-blue-500 w-96 h-14 mt-8 font-semibold font-sans flex justify-center items-center' href={'/sessions'}>Book Session</Link>
         </div>
       </div>
 
