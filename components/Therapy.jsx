@@ -121,7 +121,8 @@ const repeatedItems = Array.from({ length: number ? 8 : 2 }, (_, index) => testi
                     <span className='hover:underline hover:cursor-pointer' onClick={() => {setNumber(!number)}}>
                         {!number ? "Show More" : "Show Less" }
                     </span>
-                    <Image alt='' src={arrowDown} className='w-4 rotate-180' />
+                    <Image alt='' src={arrowDown} className={`${number ? 'rotate-180' : 'rotate-0' } w-4`} />
+                    {console.log(number)}
                 </div>
             </div>
             <div className='flex flex-wrap gap-20'>

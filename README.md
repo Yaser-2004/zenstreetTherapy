@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Zenstreet Therapy
+Zenstreet Therapy is a mental wellness platform that aims to provide accessible and user-friendly therapy resources.
 
-## Getting Started
+## Features
+- Easy session booking
+- Modern UI powered by Next.js and Tailwind CSS
+- Simple and responsive design
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Clone the repository:
+    git clone https://github.com/Yaser-2004/zenstreetTherapy.git
+- Install dependencies:
+    npm install
+- Run the development server:
+    npm run dev
+- Visit http://localhost:3000 to view the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used:
+- Next.js
+- Tailwind CSS
+- React
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Deployment
+Deployed on Vercel: https://zenstreet-therapy.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How to visit pages effectively
+- The home page starts with the portfolio page: you can click on book session to proceed forward or you can click on the share icon on top of the profile to view the share possibilities.
+- On clicking book session, you will be directed to the available sessions page, where you can select the package accordingly and proceed.
+- On top left is the back button which is fully functional
+- Now on proceeding you will be directed to therapy_modes page, where you can select the therapy mode accordingly
+    #Note: Its not fully functional, its only the frontend for now
+- Now on proceeding you will be directed to the Booking confirmation page: you can enter your details if you want, then click on book session to book your session
 
-## Learn More
+## Main Note
+- The last page, i.e., if the booking is confirmed of not is based on a random number between 1 to 10 for now. 
+    If the randomNumber is even then your booking is successfully done and if its odd then its 404 not found :/
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- At the last you can use the back to home button to navigate back to home.
